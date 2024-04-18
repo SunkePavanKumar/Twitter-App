@@ -31,3 +31,18 @@ body {
     text-wrap: balance;
   }
 }
+
+/* styles.css */
+::-webkit-scrollbar {
+  width: 12px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #2f2d2d; /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* color of the thumb */
+  border-radius: 6px; /* roundness of the thumb */
+  border: 3px solid #555; /* border around the thumb */
+}
